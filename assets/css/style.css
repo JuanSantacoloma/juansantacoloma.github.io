@@ -3,15 +3,15 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #eae4d4;
 }
 
 a {
-  color: #149ddd;
+  color: #e5a21b;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #f2be16;
   text-decoration: none;
 }
 
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #149ddd;
+  background: #e5a21b;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #2eafec;
+  background: #f2be16;
   transition: background 0.2s ease-in-out;
 }
 
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #f2be16;
   color: #fff;
   text-decoration: none;
 }
@@ -274,7 +274,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #252524;
 }
 
 .section-title {
@@ -287,7 +287,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #173b6c;
+  color: #e5a21b ;
 }
 
 .section-title h2::after {
@@ -296,7 +296,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #f2be16;
   bottom: 0;
   left: 0;
 }
@@ -308,10 +308,13 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: #252524;
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #e5a21b ;
 }
 
 .about .content ul {
@@ -326,7 +329,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #149ddd;
+  color: #f2be16;
 }
 
 .about .content p:last-child {
@@ -338,6 +341,7 @@ section {
 --------------------------------------------------------------*/
 .facts {
   padding-bottom: 30px;
+  background: #252524;
 }
 
 .facts .count-box {
@@ -348,7 +352,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #e5a21b ;
   float: left;
 }
 
@@ -357,7 +361,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #050d18;
+  color: #eae4d4;
   margin-left: 60px;
 }
 
@@ -366,7 +370,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #122f57;
+  color: #eae4d4;
 }
 
 .facts .count-box a {
@@ -399,7 +403,7 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  color: #eae4d4;
 }
 
 .skills .progress .skill .val {
@@ -415,7 +419,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #e5a21b;
 }
 
 /*--------------------------------------------------------------
@@ -582,6 +586,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services{
+  background: #252524;
+}
 .services .icon-box {
   margin-bottom: 20px;
 }
@@ -593,10 +600,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #e5a21b;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #f2be16;
 }
 
 .services .icon i {
@@ -609,7 +616,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #e5a21b;
 }
 
 .services .title {
@@ -620,11 +627,11 @@ section {
 }
 
 .services .title a {
-  color: #343a40;
+  color: #eae4d4;
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color:#e5a21b;
 }
 
 .services .description {
@@ -731,11 +738,12 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  background: #252524;
 }
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: #252524;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -746,7 +754,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #252524;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -759,14 +767,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #050d18;
+  color: #eae4d4;
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #e5a21b ;
 }
 
 .contact .info .email p {
@@ -793,12 +801,12 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #e5a21b ;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #e5a21b ;
   color: #fff;
 }
 
@@ -984,7 +992,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #149ddd !important;
+  background-color: #e5a21b  !important;
 }
 
 .portfolio-details .portfolio-info {
